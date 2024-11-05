@@ -1,0 +1,10 @@
+// Examples
+$color-dark: #151212;
+$default-height: 2458px;
+.container {
+    width: 100%;
+    height: ($default-height - 120)px;
+    .box-1 {
+        color: $color-dark;
+    }
+}
