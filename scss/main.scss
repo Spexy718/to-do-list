@@ -31,10 +31,11 @@ header{
 }
 
 .todo-container{
-    margin-top: 50px;
-    border: 2px solid #0033ff;
-    border-radius: 15px;
-    width: 400px;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid dimgray;
+    border-radius: 20px;
 }
 
 .add-bar{
@@ -49,7 +50,7 @@ header{
 .input-button{
     font-size: 15px;
     cursor: pointer;
-    padding: 10px;
+    padding: 14px;
     border: none;
     border-radius: 5px;
     background-color: #012dbedc;
