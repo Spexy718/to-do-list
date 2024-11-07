@@ -1,14 +1,15 @@
 // Examples
-$color-dark: #151212;
+$color-dark: #2a2424;
 $default-height: 2458px;
+
 .container {
     width: 100%;
     height: ($default-height - 120)px;
+
     .box-1 {
         color: $color-dark;
     }
 }
-
 
 * {
     margin: 0;
@@ -16,21 +17,22 @@ $default-height: 2458px;
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
 }
 
-header{
+header {
     background-color: rgb(212, 140, 7);
     color: white;
     padding: 15px;
-    h1{
+
+    h1 {
         margin-bottom: 20px;
     }
 }
 
-.todo-container{
+.todo-container {
     width: 70%;
     margin: 20px auto;
     padding: 20px;
@@ -38,7 +40,7 @@ header{
     border-radius: 20px;
 }
 
-.add-bar{
+.add-bar {
     width: 200px;
     padding: 10px;
     border: 1px solid #e0dede;
@@ -47,7 +49,7 @@ header{
     font-size: 20px;
 }
 
-.input-button{
+.input-button {
     font-size: 15px;
     cursor: pointer;
     padding: 14px;
@@ -55,4 +57,26 @@ header{
     border-radius: 5px;
     background-color: #012dbedc;
     color: white;
+}
+
+.todo-form, .todo-title {
+    margin-bottom: 20px;
+}
+
+.todo {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid #80380b;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+
+    .todo-icons {
+        margin-left: auto;
+
+        i {
+            cursor: pointer;
+            margin: 0 2px;
+        }
+    }
 }
