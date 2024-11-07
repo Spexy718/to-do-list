@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
   
       // Görev öğesi oluşturma
       const taskItem = document.createElement('div');
-      taskItem.classList.add('todo-item');
+      taskItem.classList.add('todo');
   
       // Görev içeriği
-      const taskContent = document.createElement('span');
+      const taskContent = document.createElement('div');
       taskContent.textContent = taskText;
       taskItem.appendChild(taskContent);
   
