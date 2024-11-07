@@ -3,87 +3,87 @@ $color-dark: #2a2424;
 $default-height: 2458px;
 
 .container {
-    width: 100%;
-    height: ($default-height - 120)px;
+  width: 100%;
+  height: ($default-height - 120) px;
 
-    .box-1 {
-        color: $color-dark;
-    }
+  .box-1 {
+    color: $color-dark;
+  }
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 header {
-    background-color: rgb(35, 35, 119);
-    color: white;
-    padding: 15px;
+  background-color: rgb(35, 35, 119);
+  color: white;
+  padding: 15px;
 
-    h1 {
-        margin-bottom: 20px;
-    }
+  h1 {
+    margin-bottom: 20px;
+  }
 }
 
 .todo-container {
-    width: 70%;
-    margin: 20px auto;
-    padding: 20px;
-    border: 3px solid #070F2B;
-    border-radius: 20px;
-    background-color: #9290C3;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px solid #070f2b;
+  border-radius: 20px;
+  background-color: #9290c3;
 }
 
 .add-bar {
-    width: 90%;
-    padding: 10px;
-    border: 1px solid #e0dede;
-    border-radius: 5px;
-    margin-right: 5px;
-    font-size: 20px;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #e0dede;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 20px;
 }
 
 .input-button {
-    width: 115px;
-    font-size: 15px;
-    cursor: pointer;
-    padding: 14px;
-    border: none;
-    border-radius: 5px;
-    background-color: #012dbedc;
-    color: white;
+  width: 115px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #012dbedc;
+  color: white;
 }
 
 .todo-form,
 .todo-title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .todo-header {
-    margin-left: 45%;
+  margin-left: 45%;
 }
 
 .todo-item {
-    display: flex;
-    width: 100%;
-    border-bottom: 2px solid #070F2B;
-    border-radius: 15px;
-    padding: 10px;
-    margin-bottom: 15px;
+  display: flex;
+  width: 100%;
+  border-bottom: 2px solid #070f2b;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
 
-    .todo-icons {
-        margin-left: auto;
+  .todo-icons {
+    margin-left: auto;
 
-        i {
-            cursor: pointer;
-            margin: 0 2px;
-        }
+    i {
+      cursor: pointer;
+      margin: 0 2px;
     }
+  }
 }
