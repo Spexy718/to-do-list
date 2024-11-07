@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    background-color: rgb(212, 140, 7);
+    background-color: rgb(35, 35, 119);
     color: white;
     padding: 15px;
 
@@ -36,8 +36,9 @@ header {
     width: 70%;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid dimgray;
+    border: 3px solid #070F2B;
     border-radius: 20px;
+    background-color: #9290C3;
 }
 
 .add-bar {
@@ -64,10 +65,14 @@ header {
     margin-bottom: 20px;
 }
 
+.todo-header{
+    margin-left: 45%;
+}
+
 .todo {
     display: flex;
     width: 100%;
-    border-bottom: 2px solid #80380b;
+    border-bottom: 2px solid #070F2B;
     border-radius: 15px;
     padding: 10px;
     margin-bottom: 15px;

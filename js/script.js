@@ -2,13 +2,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const addButton = document.getElementById('addButton');
     const inputBox = document.getElementById('inputBox');
     const todoList = document.getElementById('todo-list');
-  
+
     // Görev ekleme fonksiyonu
     function addTask() {
       const taskText = inputBox.value.trim();
   
-      // Eğer görev kutusu boşsa, görevi eklemiyoruz
-      if (taskText === "") return;
+      // Eğer görev kutusu boşsa, uyarı gösteriyoruz
+      if (taskText === "") {
+        alert("Lütfen bir görev ekleyin!");
+        return; // Görevi eklemeyi durdur
+      }
   
       // Görev öğesi oluşturma
       const taskItem = document.createElement('div');
@@ -49,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Görev kutusunu temizleme
       inputBox.value = "";
     }
-  
+
     // "Add" butonuna tıklayınca görev ekleme
     addButton.addEventListener('click', addTask);
   
@@ -59,6 +62,4 @@ document.addEventListener('DOMContentLoaded', function() {
         addTask();
       }
     });
-  });
-
-
+});
