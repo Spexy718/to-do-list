@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
       // Görev öğesi oluşturma
       const taskItem = document.createElement('div');
-      taskItem.classList.add('todo');
+      taskItem.classList.add('todo-item');
   
       // Görev içeriği
       const taskContent = document.createElement('div');

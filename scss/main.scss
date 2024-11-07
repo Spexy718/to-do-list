@@ -61,15 +61,16 @@ header {
     color: white;
 }
 
-.todo-form, .todo-title {
+.todo-form,
+.todo-title {
     margin-bottom: 20px;
 }
 
-.todo-header{
+.todo-header {
     margin-left: 45%;
 }
 
-.todo {
+.todo-item {
     display: flex;
     width: 100%;
     border-bottom: 2px solid #070F2B;
